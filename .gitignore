@@ -1,0 +1,39 @@
+# --- Entornos Virtuales y Configuración ---
+__pycache__/
+*.pyc
+.Python
+env/
+venv/
+.venv/
+.env
+.env.local
+
+# --- IDEs y Editores ---
+.vscode/
+.idea/
+*.swp
+
+# --- Datos y Base de Datos (IMPORTANTE) ---
+# Ignoramos la BD local para no sobreescribir datos entre colaboradores
+*.db
+*.sqlite3
+*.sqlite
+
+# Ignoramos los CSVs crudos si son muy pesados (opcional, pero buena práctica)
+# data/raw/*.csv
+# data/raw/*.xml
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# Opcional: Ignorar outputs de notebooks para mantener el diff limpio
+# *.nbconvert.ipynb
+
+# --- Logs y Temporales ---
+*.log
+tmp/
+temp/
+
+# --- SO ---
+.DS_Store
+Thumbs.db
