@@ -1,15 +1,18 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from src.core.engine import NashNeuralEngine
+from src.core.agent import NashAgent
 
 app = FastAPI(title="NashAI API")
 
-# Initialize Engine
+# Initialize Agent
 # In production, we might want to do this lazily or in a dependency
-engine = NashNeuralEngine()
+agent = NashAgent()
+
+from typing import List, Dict, Optional
 
 class ChatRequest(BaseModel):
     message: str
+    history: Optional[List[Dict[str, str]]] = []
 
 class ChatResponse(BaseModel):
     response: dict
@@ -21,7 +24,7 @@ def read_root():
 @app.post("/chat", response_model=ChatResponse)
 def chat_endpoint(request: ChatRequest):
     try:
-        result = engine.process_query(request.message)
+        result = agent.process_query(request.message, request.history)
         return ChatResponse(response=result)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
