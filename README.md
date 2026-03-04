@@ -34,8 +34,6 @@ NashvilleAI/
 │   │   ├── agent.py          # Definición del Agente Neuro-Simbólico (Generación SQL, Corrección, Gráficos).
 │   │   ├── config.py         # Configuraciones globales y variables de entorno.
 │   │   └── database.py       # Conexión y ejecución de consultas en la base de datos SQLite.
-│   ├── utils/
-│   │   └── etl.py            # Script encargado del proceso ETL (Extracción, Transformación y Carga de CSV a DB).
 │   ├── main.py               # Punto de entrada del Backend (API REST usando FastAPI).
 │   └── ui.py                 # Interfaz gráfica de usuario construida con Streamlit.
 ├── .env.example              # Plantilla para las variables de entorno necesarias.
@@ -61,7 +59,7 @@ NashvilleAI/
 3. **Datos y Base de Datos**:
    Los archivos de datos en bruto (CSV) ubicados en `data/raw/` y la base de datos resultante (`data/nash_finance.db`) **ya están incluidos en este repositorio**. 
    Al descargarlo, ya estás listo para iniciar el sistema sin pasos adicionales sobre los datos.
-   *(Nota: Opcionalmente, si cambias los CSV originales o necesitas reconstruir la base de datos desde cero, puedes ejecutar el proceso ETL corriendo `python src/utils/etl.py`).*
+   *(Nota: Opcionalmente, si cambias los CSV originales o necesitas reconstruir la base de datos desde cero, puedes utilizar el notebook interactivo `notebooks/NashAI_ETL.ipynb`).*
 
 4. **Ejecutar el Backend (FastAPI)**:
    Abre una terminal interactiva y levanta el servidor que albergará la lógica de la API de NashAI.
