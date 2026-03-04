@@ -15,9 +15,9 @@ venv/
 
 # --- Datos y Base de Datos (IMPORTANTE) ---
 # Ignoramos la BD local para no sobreescribir datos entre colaboradores
-*.db
-*.sqlite3
-*.sqlite
+# *.db
+# *.sqlite3
+# *.sqlite
 
 # Ignoramos los CSVs crudos si son muy pesados (opcional, pero buena práctica)
 # data/raw/*.csv
