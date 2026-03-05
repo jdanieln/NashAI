@@ -8,7 +8,7 @@ El núcleo de NashAI radica en su arquitectura **Neuro-Simbólica**: combina la 
 
 ## Vídeo Explicativo
 
-Para entender mejor el proyecto y los conceptos detallados en nuestro artículo de investigación, te invitamos a ver este vídeo explicativo (generado con NotebookLM):
+Para entender mejor el proyecto y los conceptos detallados en nuestro artículo de investigación, te invitamos a ver este vídeo explicativo:
 
 [![Vídeo Explicativo de NashAI](https://img.youtube.com/vi/kklQQn2mEbc/maxresdefault.jpg)](https://youtu.be/kklQQn2mEbc)
 
