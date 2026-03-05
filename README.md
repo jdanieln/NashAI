@@ -6,6 +6,12 @@ NashAI es un agente de Inteligencia Artificial "Neuro-Simbólico" diseñado para
 
 El núcleo de NashAI radica en su arquitectura **Neuro-Simbólica**: combina la capacidad de comprensión del lenguaje natural de los Grandes Modelos de Lenguaje (LLMs) (la parte *neuronal*, impulsada por Gemini) con la precisión y determinismo de las consultas estructuradas en bases de datos (la parte *simbólica*, utilizando SQL). 
 
+## Vídeo Explicativo
+
+Para entender mejor el proyecto y los conceptos detallados en nuestro artículo de investigación, te invitamos a ver este vídeo explicativo (generado con NotebookLM):
+
+[![Vídeo Explicativo de NashAI](https://img.youtube.com/vi/kklQQn2mEbc/maxresdefault.jpg)](https://youtu.be/kklQQn2mEbc)
+
 ## Publicación y Citación (DOI)
 
 Este trabajo ha sido detallado exhaustivamente en nuestra publicación científica. Si utilizas NashAI en tu investigación o proyecto, por favor cítalo utilizando el siguiente DOI:
