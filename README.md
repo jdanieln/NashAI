@@ -1,5 +1,7 @@
 # NashAI
 
+![Banner NashAI](src/assets/banner-repo.png)
+
 NashAI es un agente de Inteligencia Artificial "Neuro-Simbólico" diseñado para el Banco Centroamericano de Integración Económica (BCIE). Su propósito principal es permitir a los usuarios consultar datos financieros abiertos utilizando lenguaje natural de forma intuitiva y efectiva.
 
 El núcleo de NashAI radica en su arquitectura **Neuro-Simbólica**: combina la capacidad de comprensión del lenguaje natural de los Grandes Modelos de Lenguaje (LLMs) (la parte *neuronal*, impulsada por Gemini) con la precisión y determinismo de las consultas estructuradas en bases de datos (la parte *simbólica*, utilizando SQL). 
