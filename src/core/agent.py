@@ -11,7 +11,7 @@ class NashAgent:
     def __init__(self):
         self.settings = get_settings()
         genai.configure(api_key=self.settings.GEMINI_API_KEY)
-        self.model = genai.GenerativeModel('gemini-2.5-pro')
+        self.model = genai.GenerativeModel('gemini-3.0-pro')
 
     def _get_schema_summary(self):
         """Returns the actual schema summary with SYSTEM_PROMPT embedded."""
