@@ -79,5 +79,5 @@ NashvilleAI/
 - **Backend / API**: FastAPI (Python)
 - **Frontend / Interfaz Gráfica**: Streamlit
 - **Base de Datos**: SQLite nativo
-- **Inteligencia Artificial**: Google Gemini 3.0 Pro (vía `google-generativeai`)
+- **Inteligencia Artificial**: Google Gemini 3.1 Pro (vía `google-generativeai`)
 - **Manipulación de Datos y Gráficos**: Pandas y Plotly
